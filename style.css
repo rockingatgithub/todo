@@ -2,7 +2,7 @@
     position: relative;
     height: 220px;
     width: 350px;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin-left: 37%;
     margin-top: 5%;
     border-radius: 10px;
@@ -14,7 +14,7 @@
     /* border: 1px solid; */
     position: relative;
     margin-top: 5%;
-    margin-left: 2%;
+    margin-left: 7%;
     border-radius: 5px;
 }
 
@@ -24,21 +24,24 @@
     width: 25px;
     margin-top: 10px;
     margin-left: 5px;
+    margin-left: 15px;
 }
 
-#add-item {
+.add-item {
     width: 20px;
     height: 20px;
     position: absolute;
-    margin-top: 10px;
-    margin-left: -30px;
+    margin-top: -10px;
+    margin-left: -10px;
 }
 
 #list-items {
     height: auto;
     width: 80%;
-    border: 1px solid;
+    /* border: 1px solid; */
     list-style: none;
+    margin-left: 4%;
+    /* list-style-type: devanagari; */
 }
 
 #enter-item {
@@ -46,4 +49,36 @@
     width: 90%;
     border-radius: 10px;
     text-align: center;
+    border-style: groove;
+}
+
+.add {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background: none;
+    border-style: none;
+    margin-left: -35px;
+}
+
+.list-container{
+    height: 25px;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    border-style: groove;
+    margin-top: 10px;
+
+}
+.delete{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: none;
+    border-style: none;
+    margin-left: 85px;
+}
+#count {
+    margin-left: 25px;
+    margin-top: 11px;
 }

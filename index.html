@@ -5,15 +5,17 @@
 </head>
 <body>
     <div id="main-container">
-        <div id="input-div">
+        <form id="input-div">
         <img alt="list" src="https://www.flaticon.com/premium-icon/icons/svg/2926/2926079.svg" id="list-icon"/>
         <input type="text" id="enter-item">
-        <img alt="add" id="add-item" src="https://image.flaticon.com/icons/svg/1828/1828926.svg"/>
-        </div>
+        <button type="button" class="add" onclick="toAddItem()"> 
+            <img alt="add" class="add-item" src="https://image.flaticon.com/icons/svg/1828/1828926.svg"/>
+        </button>
+    </form>
+        <div id="count"></div>
         <ul id="list-items">
-            <li></li>
-            <li></li>
         </ul>
     </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
